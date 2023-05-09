@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "translite-boy"
+version = "0.1.0"
+description = ""
+authors = ["senior ofry"]
+readme = "README.md"
+packages = [{include = "translite_boy"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.3.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
